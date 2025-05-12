@@ -9,7 +9,7 @@ async def test_bulb():
         password="pyl5302992"
     )
     devices = await Discover.discover(
-        target="192.168.0.100",
+        target="192.168.0.102",
         username=credentials.username,
         password=credentials.password
     )

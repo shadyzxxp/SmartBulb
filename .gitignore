@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+bot/__pycache__/
+bot/*.py[cod]
+
+# Virtual environment folder
+venv/
+
+# Ignore sensitive settings files
+settings.json
+bot/settings.py
+
+# Ignore secrets file containing tokens
+secrets.json
+
+# Editor folders (optional)
+.vscode/
+.idea/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python environment files
+.env
+.venv
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm project files
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Sublime Text files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Visual Studio Code settings (ignore all except settings, tasks, launch, extensions)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+.history
